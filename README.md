@@ -1,2 +1,2 @@
 # ircsp_v2
-Internet Relay Chat Service Package (Version 2)
+IRCSP Version 2

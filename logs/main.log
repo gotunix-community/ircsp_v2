@@ -1,0 +1,897 @@
+[Thu May  7 19:51:06 2009] [ircsp.c:351:ircsp_startup()]:  IRCSP [Codename: Pheonix] [Version: 1.0.02] Starting
+[Thu May  7 19:51:06 2009] [memory.c:82:ircsp_initmemory()]:  Memory initialized
+[Thu May  7 19:51:06 2009] [ircsp.c:357:ircsp_startup()]:  Allocating memory for serviceHEAD
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [48] bytes at [0x80691e4]
+[Thu May  7 19:51:06 2009] [ircsp.c:366:ircsp_startup()]:  Memory allocated for serviceHEAD at [0x80691e4]
+[Thu May  7 19:51:06 2009] [ircsp.c:384:ircsp_startup()]:  Allocating memory for statusHEAD
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [32] bytes at [0x8069224]
+[Thu May  7 19:51:06 2009] [ircsp.c:393:ircsp_startup()]:  Memory allocated for statusHEAD at [0x8069224]
+[Thu May  7 19:51:06 2009] [conf.c:94:ircsp_loadConfig()]:  Starting
+[Thu May  7 19:51:06 2009] [conf.c:104:ircsp_loadConfig()]:  Loading config file [conf/ircsp.conf]
+[Thu May  7 19:51:06 2009] [conf.c:108:ircsp_loadConfig()]:  Allocating memory for configHEAD
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [196] bytes at [0x806993c]
+[Thu May  7 19:51:06 2009] [conf.c:116:ircsp_loadConfig()]:  Memory allocated for configHEAD at [0x806993c]
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:171:ircsp_parseConfig()]:  PROTOCOL
+[Thu May  7 19:51:06 2009] [conf.c:176:ircsp_parseConfig()]:  UNDERNET PROTOCOL
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:201:ircsp_parseConfig()]:  SERVER
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [23] bytes at [0x8069254]
+[Thu May  7 19:51:06 2009] [conf.c:210:ircsp_parseConfig()]:  Memory allocated for SERVER at [0x8069254]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:218:ircsp_parseConfig()]:  SERVER-COMMENT
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [38] bytes at [0x806927c]
+[Thu May  7 19:51:06 2009] [conf.c:227:ircsp_parseConfig()]:  Memory allocated for SERVER-COMMENT at [0x806927c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:237:ircsp_parseConfig()]:  SERVER-NUMERIC
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x80692b4]
+[Thu May  7 19:51:06 2009] [conf.c:248:ircsp_parseConfig()]:  Memory allocated for NUMERIC at [0x80692b4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:256:ircsp_parseConfig()]:  UPLINK
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [14] bytes at [0x80692cc]
+[Thu May  7 19:51:06 2009] [conf.c:265:ircsp_parseConfig()]:  Memory allocated for UPLINK at [0x80692cc]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:273:ircsp_parseConfig()]:  UPLINK-PORT
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:281:ircsp_parseConfig()]:  UPLINK-PASS
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x8069a14]
+[Thu May  7 19:51:06 2009] [conf.c:290:ircsp_parseConfig()]:  Memory allocated for UPLINK-PASS at [0x8069a14]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:298:ircsp_parseConfig()]:  UWORLD-NICKNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x8069a34]
+[Thu May  7 19:51:06 2009] [conf.c:307:ircsp_parseConfig()]:  Memory allocated for UWORLD-NICKNAME at [0x8069a34]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:315:ircsp_parseConfig()]:  UWORLD-USERNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x8069a54]
+[Thu May  7 19:51:06 2009] [conf.c:324:ircsp_parseConfig()]:  Memory allocated for UWORLD-USERNAME at [0x8069a54]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:332:ircsp_parseConfig()]:  UWORLD-HOSTNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [26] bytes at [0x8069a74]
+[Thu May  7 19:51:06 2009] [conf.c:341:ircsp_parseConfig()]:  Memory allocated for UWORLD-HOSTNAME at [0x8069a74]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:349:ircsp_parseConfig()]:  UWORLD-REALNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x8069aa4]
+[Thu May  7 19:51:06 2009] [conf.c:358:ircsp_parseConfig()]:  Memory allocated for UWORLD-REALNAME at [0x8069aa4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:366:ircsp_parseConfig()]:  UWORLD-IRCMODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x8069acc]
+[Thu May  7 19:51:06 2009] [conf.c:375:ircsp_parseConfig()]:  Memory allocated for UWORLD-IRCMODES at [0x8069acc]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:383:ircsp_parseConfig()]:  UWORLD-ENABLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:391:ircsp_parseConfig()]:  CSERVE-NICKNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x8069aec]
+[Thu May  7 19:51:06 2009] [conf.c:400:ircsp_parseConfig()]:  Memory allocated for CSERVE-NICKNAME at [0x8069aec]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:408:ircsp_parseConfig()]:  CSERVE-USERNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x8069b04]
+[Thu May  7 19:51:06 2009] [conf.c:417:ircsp_parseConfig()]:  Memory allocated for CSERVE-USERNAME at [0x8069b04]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:425:ircsp_parseConfig()]:  CSERVE-HOSTNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [25] bytes at [0x8069b1c]
+[Thu May  7 19:51:06 2009] [conf.c:434:ircsp_parseConfig()]:  Memory allocated for CSERVE-HOSTNAME at [0x8069b1c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:442:ircsp_parseConfig()]:  CSERVE-REALNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x8069b4c]
+[Thu May  7 19:51:06 2009] [conf.c:451:ircsp_parseConfig()]:  Memory allocated for CSERVE-REALNAME at [0x8069b4c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:459:ircsp_parseConfig()]:  CSERVE-IRCMODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x8069b6c]
+[Thu May  7 19:51:06 2009] [conf.c:468:ircsp_parseConfig()]:  Memory allocated for CSERVE-IRCMODES at [0x8069b6c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:476:ircsp_parseConfig()]:  CSERVE-ENABLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:484:ircsp_parseConfig()]:  NSERVE-NICKNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x8069b8c]
+[Thu May  7 19:51:06 2009] [conf.c:493:ircsp_parseConfig()]:  Memory allocated for NSERVE-NICKNAME at [0x8069b8c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:501:ircsp_parseConfig()]:  NSERVE-USERNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x8069ba4]
+[Thu May  7 19:51:06 2009] [conf.c:510:ircsp_parseConfig()]:  Memory allocated for NSERVE-USERNAME at [0x8069ba4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:518:ircsp_parseConfig()]:  NSERVE-HOSTNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [26] bytes at [0x8069bbc]
+[Thu May  7 19:51:06 2009] [conf.c:527:ircsp_parseConfig()]:  Memory allocated for NSERVE-HOSTNAME at [0x8069bbc]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:535:ircsp_parseConfig()]:  NSERVE-REALNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x8069bec]
+[Thu May  7 19:51:06 2009] [conf.c:544:ircsp_parseConfig()]:  Memory allocated for NSERVE-REALNAME at [0x8069bec]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:552:ircsp_parseConfig()]:  NSERVE-IRCMODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x8069c0c]
+[Thu May  7 19:51:06 2009] [conf.c:561:ircsp_parseConfig()]:  Memory allocated for NSERVE-IRCMODES at [0x8069c0c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:569:ircsp_parseConfig()]:  NSERVE-ENABLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:577:ircsp_parseConfig()]:  OPERCHANNEL-NAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x8069c2c]
+[Thu May  7 19:51:06 2009] [conf.c:586:ircsp_parseConfig()]:  Memory allocated for OPERCHANNEL-NAME at [0x8069c2c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:594:ircsp_parseConfig()]:  OPERCHANNEL-MODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [9] bytes at [0x8069c4c]
+[Thu May  7 19:51:06 2009] [conf.c:603:ircsp_parseConfig()]:  Memory allocated for OPERCHANNEL-MODES at [0x8069c4c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:611:ircsp_parseConfig()]:  OPERCHANNEL-NOTICE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:619:ircsp_parseConfig()]:  DEBUGCHANNEL-NAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x8069c6c]
+[Thu May  7 19:51:06 2009] [conf.c:628:ircsp_parseConfig()]:  Memory allocated for DEBUGCHANNEL-NAME at [0x8069c6c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:636:ircsp_parseConfig()]:  DEBUGCHANNEL-MODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x8069c8c]
+[Thu May  7 19:51:06 2009] [conf.c:645:ircsp_parseConfig()]:  Memory allocated for DEBUGCHANNEL-MODES at [0x8069c8c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:888:ircsp_parseConfig()]:  Unknown config option [IGNORED] [WARNCHANNEL-NAME]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:888:ircsp_parseConfig()]:  Unknown config option [IGNORED] [WARNCHANNEL-MODES]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:888:ircsp_parseConfig()]:  Unknown config option [IGNORED] [WARNCHANNEL]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:888:ircsp_parseConfig()]:  Unknown config option [IGNORED] [NOTECHANNEL]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:653:ircsp_parseConfig()]:  DENY-MESSAGE
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [22] bytes at [0x8069cac]
+[Thu May  7 19:51:06 2009] [conf.c:662:ircsp_parseConfig()]:  Memory allocated for DENY-MESSAGE at [0x8069cac]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:756:ircsp_parseConfig()]:  FORK
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:764:ircsp_parseConfig()]:  NUMERIC-XPOS
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:772:ircsp_parseConfig()]:  NUMERIC-YPOS
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:780:ircsp_parseConfig()]:  NUMERIC-YYPOS
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:788:ircsp_parseConfig()]:  CLONE-WARN
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:796:ircsp_parseConfig()]:  CLONE-BAN
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:670:ircsp_parseConfig()]:  JUPE-USERNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x8069cd4]
+[Thu May  7 19:51:06 2009] [conf.c:679:ircsp_parseConfig()]:  Memory allocated for JUPE-USERNAME at [0x8069cd4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:687:ircsp_parseConfig()]:  JUPE-HOSTNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [22] bytes at [0x8069cfc]
+[Thu May  7 19:51:06 2009] [conf.c:696:ircsp_parseConfig()]:  Memory allocated for JUPE-HOSTNAME at [0x8069cfc]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:704:ircsp_parseConfig()]:  JUPE-REALNAME
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [38] bytes at [0x8069d24]
+[Thu May  7 19:51:06 2009] [conf.c:713:ircsp_parseConfig()]:  Memory allocated for JUPE-REALNAME at [0x8069d24]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:721:ircsp_parseConfig()]:  JUPE-IRCMODES
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [9] bytes at [0x8069d5c]
+[Thu May  7 19:51:06 2009] [conf.c:730:ircsp_parseConfig()]:  Memory allocated for JUPE-IRCMODES at [0x8069d5c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:804:ircsp_parseConfig():  ADMIN-DB
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x8069d7c]
+[Thu May  7 19:51:06 2009] [conf.c:813:ircsp_parseConfig()]:  Memory allocated for ADMIN-DB at [0x8069d7c]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:821:ircsp_parseConfig()]:  GLINE-DB
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x8069da4]
+[Thu May  7 19:51:06 2009] [conf.c:830:ircsp_parseConfig()]:  Memory allocated for GLINE-DB at [0x8069da4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:838:ircsp_parseConfig()]:  UWORLD-CMD-DB
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x8069dcc]
+[Thu May  7 19:51:06 2009] [conf.c:847:ircsp_parseConfig()]:  Memory allocated for UWORLD-CMD-DB at [0x8069dcc]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:738:ircsp_parseConfig()]:  JUPE-DATABASE
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x8069df4]
+[Thu May  7 19:51:06 2009] [conf.c:747:ircsp_parseConfig()]:  Memory allocated for JUPE-DATABASE at [0x8069df4]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:856:ircsp_parseConfig()]:  SAVE-CYCLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:864:ircsp_parseConfig()]:  GLINE-CYCLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:872:ircsp_parseConfig()]:  NICK-CYCLE
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:126:ircsp_loadConfig()]:  Ignoring comments
+[Thu May  7 19:51:06 2009] [conf.c:134:ircsp_loadConfig()]:  Ignoring empty space
+[Thu May  7 19:51:06 2009] [conf.c:165:ircsp_parseConfig()]:  Starting config parser
+[Thu May  7 19:51:06 2009] [conf.c:888:ircsp_parseConfig()]:  Unknown config option [IGNORED] [AUTO-GLINE-LEN]
+[Thu May  7 19:51:06 2009] [conf.c:892:ircsp_parseConfig()]:  Finished
+[Thu May  7 19:51:06 2009] [conf.c:147:ircsp_loadConfig()]:  Config file loaded
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [40] bytes at [0x8069f84]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x8069fbc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [23] bytes at [0x8069fdc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [14] bytes at [0x806a004]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [40] bytes at [0x806a024]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a05c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806a07c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [14] bytes at [0x806a094]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a21c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a23c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a25c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a27c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a29c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a2bc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a2dc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a2fc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x806a31c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a344]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a364]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x806a384]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a3ac]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a3cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806a3ec]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a40c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806a42c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [16] bytes at [0x806a444]
+[Thu May  7 19:51:06 2009] [ircsp.c:505:main()]:  Connected to UPLINK, Logging in
+[Thu May  7 19:51:06 2009] [ircsp.c:567:ircsp_login()]:  Logging into UPLINK
+[Thu May  7 19:51:06 2009] [ircsp.c:572:ircsp_login()]:  |-  UNDERNET
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806a86c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806a86c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806a86c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806a86c]
+[Thu May  7 19:51:06 2009] [ircsp.c:586:ircsp_login()]:  Adding server[UWorld.GOTUNIX.NET][AE]
+[Thu May  7 19:51:06 2009] [servers.c:118:addServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [32] bytes at [0x806a86c]
+[Thu May  7 19:51:06 2009] [servers.c:127:addServer()]:  Memory allocated for serverHEAD at [0x806a86c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [23] bytes at [0x806a89c]
+[Thu May  7 19:51:06 2009] [servers.c:136:addServer()]:  Memory allocated for NAME at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806a8c4]
+[Thu May  7 19:51:06 2009] [servers.c:145:addServer()]:  Memory allocated for NUMERIC at [0x806a8c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806a8dc]
+[Thu May  7 19:51:06 2009] [servers.c:154:addServer()]:  Memory allocated for UPLINK at [0x806a8dc]
+[Thu May  7 19:51:06 2009] [servers.c:163:addServer()]:  Server [UWorld.GOTUNIX.NET] added
+[Thu May  7 19:51:06 2009] [servers.c:178:addServer()]:  Finished running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): PASS :testing
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): SERVER irc.gotunix.net 1 1239686840 1241743866 J10 ACAP] +h6 :GOTUNIX Networks
+[Thu May  7 19:51:06 2009] [m_parse.c:161:m_parse()]:  SERVER [S]
+[Thu May  7 19:51:06 2009] [m_server.c:116:m_server()]:  Starting SERVER parser
+[Thu May  7 19:51:06 2009] [m_server.c:131:m_server()]:  UPLINK SERVER
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:164:m_server()]:  Server [irc.gotunix.net]  Protocol [J10]  Numeric [AC]  Uplink [SERVER]
+[Thu May  7 19:51:06 2009] [servers.c:118:addServer()]:  Running on [irc.gotunix.net]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [32] bytes at [0x806a924]
+[Thu May  7 19:51:06 2009] [servers.c:127:addServer()]:  Memory allocated for serverHEAD at [0x806a924]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [20] bytes at [0x806a954]
+[Thu May  7 19:51:06 2009] [servers.c:136:addServer()]:  Memory allocated for NAME at [0x806a954]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806a97c]
+[Thu May  7 19:51:06 2009] [servers.c:145:addServer()]:  Memory allocated for NUMERIC at [0x806a97c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806a994]
+[Thu May  7 19:51:06 2009] [servers.c:154:addServer()]:  Memory allocated for UPLINK at [0x806a994]
+[Thu May  7 19:51:06 2009] [servers.c:163:addServer()]:  Server [irc.gotunix.net] added
+[Thu May  7 19:51:06 2009] [servers.c:178:addServer()]:  Finished running on [irc.gotunix.net]
+[Thu May  7 19:51:06 2009] [servers.c:189:findServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [servers.c:197:findServer()]:  Server [UWorld.GOTUNIX.NET] found at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:186:m_server()]:  Finished SERVER parser
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC S irc2.gotunix.net 2 0 1239686904 P10 ADAP] +h6 :GOTUNIX Networks
+[Thu May  7 19:51:06 2009] [m_parse.c:161:m_parse()]:  SERVER [S]
+[Thu May  7 19:51:06 2009] [m_server.c:116:m_server()]:  Starting SERVER parser
+[Thu May  7 19:51:06 2009] [m_server.c:142:m_server()]:  LEAF SERVER
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:164:m_server()]:  Server [irc2.gotunix.net]  Protocol [P10]  Numeric [AD]  Uplink [AC]
+[Thu May  7 19:51:06 2009] [servers.c:118:addServer()]:  Running on [irc2.gotunix.net]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [32] bytes at [0x806a9ac]
+[Thu May  7 19:51:06 2009] [servers.c:127:addServer()]:  Memory allocated for serverHEAD at [0x806a9ac]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x806a9dc]
+[Thu May  7 19:51:06 2009] [servers.c:136:addServer()]:  Memory allocated for NAME at [0x806a9dc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806aa04]
+[Thu May  7 19:51:06 2009] [servers.c:145:addServer()]:  Memory allocated for NUMERIC at [0x806aa04]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806aa1c]
+[Thu May  7 19:51:06 2009] [servers.c:154:addServer()]:  Memory allocated for UPLINK at [0x806aa1c]
+[Thu May  7 19:51:06 2009] [servers.c:163:addServer()]:  Server [irc2.gotunix.net] added
+[Thu May  7 19:51:06 2009] [servers.c:178:addServer()]:  Finished running on [irc2.gotunix.net]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:186:m_server()]:  Finished SERVER parser
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AD S irc3.gotunix.net 3 0 1239686900 P10 AGAP] +h6 :GOTUNIX Networks
+[Thu May  7 19:51:06 2009] [m_parse.c:161:m_parse()]:  SERVER [S]
+[Thu May  7 19:51:06 2009] [m_server.c:116:m_server()]:  Starting SERVER parser
+[Thu May  7 19:51:06 2009] [m_server.c:142:m_server()]:  LEAF SERVER
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:164:m_server()]:  Server [irc3.gotunix.net]  Protocol [P10]  Numeric [AG]  Uplink [AD]
+[Thu May  7 19:51:06 2009] [servers.c:118:addServer()]:  Running on [irc3.gotunix.net]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [32] bytes at [0x806aa34]
+[Thu May  7 19:51:06 2009] [servers.c:127:addServer()]:  Memory allocated for serverHEAD at [0x806aa34]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [21] bytes at [0x806aa64]
+[Thu May  7 19:51:06 2009] [servers.c:136:addServer()]:  Memory allocated for NAME at [0x806aa64]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806aa8c]
+[Thu May  7 19:51:06 2009] [servers.c:145:addServer()]:  Memory allocated for NUMERIC at [0x806aa8c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806aaa4]
+[Thu May  7 19:51:06 2009] [servers.c:154:addServer()]:  Memory allocated for UPLINK at [0x806aaa4]
+[Thu May  7 19:51:06 2009] [servers.c:163:addServer()]:  Server [irc3.gotunix.net] added
+[Thu May  7 19:51:06 2009] [servers.c:178:addServer()]:  Finished running on [irc3.gotunix.net]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [30] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [m_server.c:186:m_server()]:  Finished SERVER parser
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC N ahh 1 1239686841 xerox cthulhu.got-unix.net +iw BC]AEa ACAAA :F000z0z0z0z0z0
+[Thu May  7 19:51:06 2009] [m_parse.c:207:m_parse()]:  NICK [N]
+[Thu May  7 19:51:06 2009] [m_nick.c:116:m_nick()]:  Starting NICK parser
+[Thu May  7 19:51:06 2009] [servers.c:217:findServerByNumeric()]:  Running on [AC]
+[Thu May  7 19:51:06 2009] [servers.c:225:findServerByNumeric()]:  Server [irc.gotunix.net] found at [0x806a954]
+[Thu May  7 19:51:06 2009] [m_nick.c:240:m_nick()]:  New NICK [ahh] (xerox@cthulhu.got-unix.net)  Numeric [ACAAA] Operator [0] on Server [irc.gotunix.net]
+[Thu May  7 19:51:06 2009] [m_nick.c:246:m_nick()]:  Checking HOSTNAME [cthulhu.got-unix.net]
+[Thu May  7 19:51:06 2009] [m_nick.c:252:m_nick()]:  Adding new hostname [cthulhu.got-unix.net]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806a8f4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [25] bytes at [0x806aabc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806aaec]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806ab34]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ab4c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ab6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806ab8c]
+[Thu May  7 19:51:06 2009] [m_nick.c:286:m_nick()]:  Finishing NICK parser
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC N foo 1 1239686841 xerox cthulhu.got-unix.net +iw BC]AEa ACAAB :F000z0z0z0z0z0
+[Thu May  7 19:51:06 2009] [m_parse.c:207:m_parse()]:  NICK [N]
+[Thu May  7 19:51:06 2009] [m_nick.c:116:m_nick()]:  Starting NICK parser
+[Thu May  7 19:51:06 2009] [servers.c:217:findServerByNumeric()]:  Running on [AC]
+[Thu May  7 19:51:06 2009] [servers.c:225:findServerByNumeric()]:  Server [irc.gotunix.net] found at [0x806a954]
+[Thu May  7 19:51:06 2009] [m_nick.c:240:m_nick()]:  New NICK [foo] (xerox@cthulhu.got-unix.net)  Numeric [ACAAB] Operator [0] on Server [irc.gotunix.net]
+[Thu May  7 19:51:06 2009] [m_nick.c:246:m_nick()]:  Checking HOSTNAME [cthulhu.got-unix.net]
+[Thu May  7 19:51:06 2009] [m_nick.c:260:m_nick()]:  Hostname [cthulhu.got-unix.net] found at [0x806aabc] - Increasing count
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806aba4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806aba4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806aba4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806abec]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ac04]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ac24]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806ac44]
+[Thu May  7 19:51:06 2009] [m_nick.c:286:m_nick()]:  Finishing NICK parser
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC B #Debug 0
+[Thu May  7 19:51:06 2009] [m_parse.c:307:m_parse()]:  BURST [B]
+[Thu May  7 19:51:06 2009] [m_burst.c:139:m_burst()]:  Starting BURST parser
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Debug]
+[Thu May  7 19:51:06 2009] [channels.c:195:findChannel()]:  Channel [#Debug] not found
+[Thu May  7 19:51:06 2009] [m_burst.c:163:m_burst()]:  New Channel [#Debug] - Adding
+[Thu May  7 19:51:06 2009] [m_burst.c:171:m_burst()]:  Empty Channel [#Debug]
+[Thu May  7 19:51:06 2009] [channels.c:91:addChannel()]:  Running for [#Debug]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [40] bytes at [0x806ac5c]
+[Thu May  7 19:51:06 2009] [channels.c:100:addChannel()]:  Memory allocated for channelHEAD at [0x806ac5c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x806ac94]
+[Thu May  7 19:51:06 2009] [channels.c:110:addChannel()]:  Memory allocated for NAME at [0x806ac94]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [25] bytes at [0x806acb4]
+[Thu May  7 19:51:06 2009] [channels.c:120:addChannel()]:  Memory allocated for KEY at [0x806acb4]
+[Thu May  7 19:51:06 2009] [channels.c:145:addChannel()]:  Channel [#Debug] added
+[Thu May  7 19:51:06 2009] [channels.c:160:addChannel()]:  Finished running on [#Debug]
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC B #Shit 0
+[Thu May  7 19:51:06 2009] [m_parse.c:307:m_parse()]:  BURST [B]
+[Thu May  7 19:51:06 2009] [m_burst.c:139:m_burst()]:  Starting BURST parser
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Shit]
+[Thu May  7 19:51:06 2009] [channels.c:195:findChannel()]:  Channel [#Shit] not found
+[Thu May  7 19:51:06 2009] [m_burst.c:163:m_burst()]:  New Channel [#Shit] - Adding
+[Thu May  7 19:51:06 2009] [m_burst.c:171:m_burst()]:  Empty Channel [#Shit]
+[Thu May  7 19:51:06 2009] [channels.c:91:addChannel()]:  Running for [#Shit]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [40] bytes at [0x806ace4]
+[Thu May  7 19:51:06 2009] [channels.c:100:addChannel()]:  Memory allocated for channelHEAD at [0x806ace4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad1c]
+[Thu May  7 19:51:06 2009] [channels.c:110:addChannel()]:  Memory allocated for NAME at [0x806ad1c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [25] bytes at [0x806ad3c]
+[Thu May  7 19:51:06 2009] [channels.c:120:addChannel()]:  Memory allocated for KEY at [0x806ad3c]
+[Thu May  7 19:51:06 2009] [channels.c:145:addChannel()]:  Channel [#Shit] added
+[Thu May  7 19:51:06 2009] [channels.c:160:addChannel()]:  Finished running on [#Shit]
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC EB 
+[Thu May  7 19:51:06 2009] [m_parse.c:171:m_parse()]:  End of BURST [EB]
+[Thu May  7 19:51:06 2009] [servers.c:217:findServerByNumeric()]:  Running on [AC]
+[Thu May  7 19:51:06 2009] [servers.c:225:findServerByNumeric()]:  Server [irc.gotunix.net] found at [0x806a954]
+[Thu May  7 19:51:06 2009] [servers.c:189:findServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [servers.c:197:findServer()]:  Server [UWorld.GOTUNIX.NET] found at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC EA 
+[Thu May  7 19:51:06 2009] [m_parse.c:128:m_parse()]:  End of BURST (EA)
+[Thu May  7 19:51:06 2009] [m_parse.c:135:m_parse()]:  SPAWNING services
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAA] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAA]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806ad8c]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806ad8c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAA] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAA]
+[Thu May  7 19:51:06 2009] [ircsp.c:616:ircsp_spawnUW()]:  Spawning service bot [UWorld / AEAAA]
+[Thu May  7 19:51:06 2009] [servers.c:189:findServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [servers.c:197:findServer()]:  Server [UWorld.GOTUNIX.NET] found at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806adc4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806adc4]
+[Thu May  7 19:51:06 2009] [ircsp.c:627:ircsp_spawnUW()]:  Nickname[UWorld] Numeric[AEAAA] Online - Adding Nickname
+[Thu May  7 19:51:06 2009] [ircsp.c:634:ircsp_spawnUW()]:  Adding hostname [Operators.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806adc4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [26] bytes at [0x806ade4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806ae14]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x806ae5c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [11] bytes at [0x806ae7c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ae9c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806aebc]
+[Thu May  7 19:51:06 2009] [ircsp.c:655:ircsp_spawnUW()]:  Setting flags, joining channels, setting modes
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806aed4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806aed4]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Shit]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Shit] found at [0x806ad1c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806aed4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806aef4]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Debug]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Debug] found at [0x806ac94]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806af14]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806af34]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAB] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAB]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806af54]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806af54]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAB] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAB]
+[Thu May  7 19:51:06 2009] [ircsp.c:738:ircsp_spawnCS()]:  Spawning service bot [X / AEAAB]
+[Thu May  7 19:51:06 2009] [servers.c:189:findServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [servers.c:197:findServer()]:  Server [UWorld.GOTUNIX.NET] found at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806af8c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806af8c]
+[Thu May  7 19:51:06 2009] [ircsp.c:750:ircsp_spawnCS()]:  Nickname[X] Numeric[AEAAB] Online - Adding nickname
+[Thu May  7 19:51:06 2009] [ircsp.c:759:ircsp_spawnCS()]:  Adding hostname [Channels.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806af8c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [25] bytes at [0x806afac]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806afdc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806b024]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806b03c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b054]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b074]
+[Thu May  7 19:51:06 2009] [ircsp.c:777:ircsp_spawnCS()]:  Setting flags, joining channels, setting modes
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b08c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b08c]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Shit]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Shit] found at [0x806ad1c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b08c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b0ac]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Debug]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Debug] found at [0x806ac94]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b0cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b0ec]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAC] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAC]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b10c]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b10c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAC] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAC]
+[Thu May  7 19:51:06 2009] [ircsp.c:852:ircsp_spawnNS()]:  Spawning service bot [N / AEAAC]
+[Thu May  7 19:51:06 2009] [servers.c:189:findServer()]:  Running on [UWorld.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [servers.c:197:findServer()]:  Server [UWorld.GOTUNIX.NET] found at [0x806a89c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b144]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b144]
+[Thu May  7 19:51:06 2009] [ircsp.c:864:ircsp_spawnNS()]:  Nickname[N] Numeric[AEAAC] Online - Adding nickname
+[Thu May  7 19:51:06 2009] [ircsp.c:872:ircsp_spawnNS()]:  Adding hostname [Nicknames.GOTUNIX.NET]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b144]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [26] bytes at [0x806b164]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b194]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806b1dc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806b1f4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b20c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b22c]
+[Thu May  7 19:51:06 2009] [ircsp.c:890:ircsp_spawnNS()]:  Setting flags, joining channels, setting modes
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b244]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b244]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Shit]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Shit] found at [0x806ad1c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b244]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b264]
+[Thu May  7 19:51:06 2009] [channels.c:178:findChannel()]:  Running on [#Debug]
+[Thu May  7 19:51:06 2009] [channels.c:186:findChannel()]:  Channel [#Debug] found at [0x806ac94]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b284]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b2a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAD] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAD]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b2c4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAD] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAD]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b2fc]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b2fc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [12] bytes at [0x806b2fc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [22] bytes at [0x806b31c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b344]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [6] bytes at [0x806b38c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b3a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b3cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b3ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAD] found at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAE] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAE]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b404]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b404]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAE] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAE]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b43c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b43c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b43c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806b484]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b4a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b4cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b4ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAD] found at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAE] found at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAF]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAF] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAF]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAF]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b504]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b504]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b51c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b51c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAF] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAF]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b53c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b53c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b53c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806b584]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b5a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b5cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b5ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAD] found at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAE] found at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAF]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAF] found at [0x806b51c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAG]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAG] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAG]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAG]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b604]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b604]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b61c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b61c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAG] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAG]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b63c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b63c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b63c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806b684]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b6a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b6cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b6ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAD] found at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAE] found at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAF]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAF] found at [0x806b51c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAG]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAG] found at [0x806b61c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAH]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAH] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAH]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAH]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b704]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b704]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b71c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b71c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAH] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAH]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b73c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b73c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b73c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806b784]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b7a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b7cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b7ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [numeric.c:316:getFreeNumeric()]:  Getting a free NUMERIC
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAA]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAA] found at [0x806ada4]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAB]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAB] found at [0x806af6c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAC]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAC] found at [0x806b124]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAD]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAD] found at [0x806b2dc]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAE]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAE] found at [0x806b41c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAF]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAF] found at [0x806b51c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAG]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAG] found at [0x806b61c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAH]
+[Thu May  7 19:51:06 2009] [numeric.c:237:findNickNumeric()]:  Numeric [AEAAH] found at [0x806b71c]
+[Thu May  7 19:51:06 2009] [numeric.c:229:findNickNumeric()]:  Running on [AEAAI]
+[Thu May  7 19:51:06 2009] [numeric.c:246:findNickNumeric()]:  Numeric [AEAAI] not found
+[Thu May  7 19:51:06 2009] [numeric.c:337:getFreeNumeric()]:  Free numeric found [AEAAI]
+[Thu May  7 19:51:06 2009] [numeric.c:177:addNickNumeric()]:  Running for [AEAAI]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [8] bytes at [0x806b804]
+[Thu May  7 19:51:06 2009] [numeric.c:186:addNickNumeric()]:  Memory allocated for numericHEAD at [0x806b804]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b81c]
+[Thu May  7 19:51:06 2009] [numeric.c:195:addNickNumeric()]:  Memory allocated for NUMERIC at [0x806b81c]
+[Thu May  7 19:51:06 2009] [numeric.c:203:addNickNumeric()]:  Numeric [AEAAI] added
+[Thu May  7 19:51:06 2009] [numeric.c:218:addNickNumeric()]:  Finished on [AEAAI]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [1024] bytes at [0x806b83c]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [1024] bytes at [0x806b83c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [56] bytes at [0x806b83c]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [13] bytes at [0x806b884]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [18] bytes at [0x806b8a4]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [10] bytes at [0x806b8cc]
+[Thu May  7 19:51:06 2009] [memory.c:163:ircsp_calloc()]:  Allocated [7] bytes at [0x806b8ec]
+[Thu May  7 19:51:06 2009] [memory.c:191:ircsp_free()]:  Released [10] bytes at [0x806ad6c]
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC 221 AEAAB +
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser
+[Thu May  7 19:51:06 2009] [ircsp.c:513:main()]:  Moving to PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:117:m_parse()]:  Startng PARSER
+[Thu May  7 19:51:06 2009] [m_parse.c:121:m_parse()]:  Socket(READ): AC 221 AEAAC +
+[Thu May  7 19:51:06 2009] [m_parse.c:337:m_parse()]:  End of parser

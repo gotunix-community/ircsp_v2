@@ -1,0 +1,252 @@
+@(#) - (users.c:895) loadAdminDB():  Loading Admin Database
+@(#) - (users.c:692) addAdmin():  Running for f00ball (*@*.hvc.res.rr.com)
+@(#) - (users.c:705) addAdmin():  Memory allocated for adminHEAD
+@(#) - (users.c:718) addAdmin():  Memory allocated for NICKNAME at [0x8069fbc]
+@(#) - (users.c:731) addAdmin():  Memory allocated for HOSTMASK at [0x8069fdc]
+@(#) - (users.c:744) addAdmin():  Memory allocated for PASSWORD at [0x806a004]
+@(#) - (users.c:758) addAdmin():  Admin[f00ball] (*@*.hvc.res.rr.com) Added.
+@(#) - (users.c:773) addAdmin():  Finished running on f00ball (*@*.hvc.res.rr.com)
+@(#) - (users.c:692) addAdmin():  Running for evilicey (*@*)
+@(#) - (users.c:705) addAdmin():  Memory allocated for adminHEAD
+@(#) - (users.c:718) addAdmin():  Memory allocated for NICKNAME at [0x806a05c]
+@(#) - (users.c:731) addAdmin():  Memory allocated for HOSTMASK at [0x806a07c]
+@(#) - (users.c:744) addAdmin():  Memory allocated for PASSWORD at [0x806a094]
+@(#) - (users.c:758) addAdmin():  Admin[evilicey] (*@*) Added.
+@(#) - (users.c:773) addAdmin():  Finished running on evilicey (*@*)
+@(#) - (uworld.c:197) uw_loadCommand():  Loading UWorld command database
+@(#) - (uworld.c:217) uw_loadCommand():  Ignoring Comments
+@(#) - (uworld.c:217) uw_loadCommand():  Ignoring Comments
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [uptime] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [servlist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [nicklist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [hostlist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [adminlist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [glinelist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [chanlist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [auth] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [deauth] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [gline] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [remgline] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [whoison] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [banlist] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [xlate] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [whois] Level [1]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [clearbans] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [opermsg] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [clearops] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [opcom] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [clearmodes] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [scan] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [mode] Level [100]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [masskill] Level [900]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [save] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [die] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [cmdlist] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [disablecmd] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [enablecmd] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [restart] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [rehash] Level [1000]
+@(#) - (uworld.c:251) uw_loadCommand():  UWorld Command [chlevel] Level [1000]
+@(#) - (uworld.c:264) uw_loadCommand():  UWorld Command Database loaded
+[uworld.c:856:uw_loadNickJupe()]:  Ignoring comments
+[uworld.c:856:uw_loadNickJupe()]:  Ignoring comments
+[uworld.c:667:addNickJupe()]:  Runnin on [NickServ]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a21c]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a23c]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a25c]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [NickServ] added
+[uworld.c:667:addNickJupe()]:  Runnin on [ChanServ]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a27c]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a29c]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a2bc]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [ChanServ] added
+[uworld.c:667:addNickJupe()]:  Runnin on [OperServ]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a2dc]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a2fc]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a31c]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [OperServ] added
+[uworld.c:667:addNickJupe()]:  Runnin on [MemoServ]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a344]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a364]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a384]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [MemoServ] added
+[uworld.c:667:addNickJupe()]:  Runnin on [HelpServ]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a3ac]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a3cc]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a3ec]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [HelpServ] added
+[uworld.c:667:addNickJupe()]:  Runnin on [W]
+[uworld.c:682:addNickJupe()]:  Memory allocated for nickjupeHEAD at [0x806a40c]
+[uworld.c:699:addNickJupe()]:  Memory allocated for NICKNAME at [0x806a42c]
+[uworld.c:716:addNickJupe()]:  Memory allocated for REASON at [0x806a444]
+[uworld.c:722:addNickJupe()]:  Nick Jupe [W] added
+@(#) - (socket.c:120) ircsp_connect():  Conecting to UPLINK [127.0.0.1:4400].
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  PASS :testing
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  SERVER UWorld.GOTUNIX.NET 1 1241743866 1241743866 J10 AE]]] :[127.0.0.1] IRC[Services Package]
+@(#) - (users.c:252) findUserByNumeric():  Running on [AC]
+@(#) - (users.c:269) findUserByNumeric():  Nickname was not found by Numeric[AC].
+@(#) - (users.c:217) findUser():  Running on [ahh]
+@(#) - (users.c:235) findUser():  Nickname[ahh] Not Found.
+@(#) - (users.c:593) findHostname():  Running for [cthulhu.got-unix.net]
+@(#) - (users.c:610) findHostname():  Hostname [cthulhu.got-unix.net] not found
+@(#) - (users.c:534) addHostname():  Running for [cthulhu.got-unix.net]
+@(#) - (users.c:547) addHostname():  Memory allocated for hostHEAD
+@(#) - (users.c:560) addHostname():  Memory allocated for HOSTNAME [cthulhu.got-unix.net] at [0x806aabc]
+@(#) - (users.c:578) addHostname():  Finished running for [cthulhu.got-unix.net]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806aaec]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806ab34]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806ab4c]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806ab6c]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806ab8c]
+@(#) - (users.c:169) addUser():  Adding Nickname [ahh](xerox@cthulhu.got-unix.net) - Numeric[ACAAA] on Server[AC]
+@(#) - (users.c:188) addUser():  Added Nickname[ahh][ACAAA](xerox@cthulhu.got-unix.net)
+@(#) - (users.c:252) findUserByNumeric():  Running on [AC]
+@(#) - (users.c:269) findUserByNumeric():  Nickname was not found by Numeric[AC].
+@(#) - (users.c:217) findUser():  Running on [foo]
+@(#) - (users.c:235) findUser():  Nickname[foo] Not Found.
+@(#) - (users.c:593) findHostname():  Running for [cthulhu.got-unix.net]
+@(#) - (users.c:601) findHostname():  Hostname [cthulhu.got-unix.net] found at [0x806aabc]
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE WA :Possible [2] clones detected from [cthulhu.got-unix.net]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806aba4]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806abec]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806ac04]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806ac24]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806ac44]
+@(#) - (users.c:169) addUser():  Adding Nickname [foo](xerox@cthulhu.got-unix.net) - Numeric[ACAAB] on Server[AC]
+@(#) - (users.c:188) addUser():  Added Nickname[foo][ACAAB](xerox@cthulhu.got-unix.net)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE EA
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE EB
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N UWorld 1 0 Uworld Operators.GOTUNIX.NET +Odwk AAAAAA AEAAA :/msg UWorld HELP
+@(#) - (users.c:593) findHostname():  Running for [Operators.GOTUNIX.NET]
+@(#) - (users.c:610) findHostname():  Hostname [Operators.GOTUNIX.NET] not found
+@(#) - (users.c:534) addHostname():  Running for [Operators.GOTUNIX.NET]
+@(#) - (users.c:547) addHostname():  Memory allocated for hostHEAD
+@(#) - (users.c:560) addHostname():  Memory allocated for HOSTNAME [Operators.GOTUNIX.NET] at [0x806ade4]
+@(#) - (users.c:578) addHostname():  Finished running for [Operators.GOTUNIX.NET]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806ae14]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806ae5c]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806ae7c]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806ae9c]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806aebc]
+@(#) - (users.c:169) addUser():  Adding Nickname [UWorld](Uworld@Operators.GOTUNIX.NET) - Numeric[AEAAA] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[UWorld][AEAAA](Uworld@Operators.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAA M UWorld :+Odwk
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAA J #Shit
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Shit +mst (null)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Shit +o AEAAA
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAA J #Debug
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Debug +o AEAAA
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M +msti #Debug
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N X 1 0 X Channels.GOTUNIX.NET +Odwk AEAAB :/msg X HELP
+@(#) - (users.c:593) findHostname():  Running for [Channels.GOTUNIX.NET]
+@(#) - (users.c:610) findHostname():  Hostname [Channels.GOTUNIX.NET] not found
+@(#) - (users.c:534) addHostname():  Running for [Channels.GOTUNIX.NET]
+@(#) - (users.c:547) addHostname():  Memory allocated for hostHEAD
+@(#) - (users.c:560) addHostname():  Memory allocated for HOSTNAME [Channels.GOTUNIX.NET] at [0x806afac]
+@(#) - (users.c:578) addHostname():  Finished running for [Channels.GOTUNIX.NET]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806afdc]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b024]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b03c]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b054]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b074]
+@(#) - (users.c:169) addUser():  Adding Nickname [X](X@Channels.GOTUNIX.NET) - Numeric[AEAAB] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[X][AEAAB](X@Channels.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAB M X :+Odwk
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAB J #Shit
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Shit +som AEAAB
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAB J #Debug
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Debug +o AEAAB
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Debug +som
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N N 1 0 N Nicknames.GOTUNIX.NET +Odwk AEAAC :/msg N HELP
+@(#) - (users.c:593) findHostname():  Running for [Nicknames.GOTUNIX.NET]
+@(#) - (users.c:610) findHostname():  Hostname [Nicknames.GOTUNIX.NET] not found
+@(#) - (users.c:534) addHostname():  Running for [Nicknames.GOTUNIX.NET]
+@(#) - (users.c:547) addHostname():  Memory allocated for hostHEAD
+@(#) - (users.c:560) addHostname():  Memory allocated for HOSTNAME [Nicknames.GOTUNIX.NET] at [0x806b164]
+@(#) - (users.c:578) addHostname():  Finished running for [Nicknames.GOTUNIX.NET]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b194]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b1dc]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b1f4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b20c]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b22c]
+@(#) - (users.c:169) addUser():  Adding Nickname [N](N@Nicknames.GOTUNIX.NET) - Numeric[AEAAC] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[N][AEAAC](N@Nicknames.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAC M N :+Odwk
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAC J #Shit
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Shit +som AEAAC
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AEAAC J #Debug
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Debug +o AEAAC
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE M #Debug +msti
+@(#) - (synch.c:119) synch():  Adding GLINES
+@(#) - (users.c:217) findUser():  Running on [UWorld]
+@(#) - (users.c:226) findUser():  Nickname[UWorld] Found at [0x806ae5c]
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE WA :NOTICE - Synching GLINES!
+
+@(#) - (users.c:217) findUser():  Running on [UWorld]
+@(#) - (users.c:226) findUser():  Nickname[UWorld] Found at [0x806ae5c]
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE WA :NOTICE - Loading NICK Jupes
+
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N W 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAD :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:610) findHostname():  Hostname [Jupes.GOTUNIX.NET] not found
+@(#) - (users.c:534) addHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:547) addHostname():  Memory allocated for hostHEAD
+@(#) - (users.c:560) addHostname():  Memory allocated for HOSTNAME [Jupes.GOTUNIX.NET] at [0x806b31c]
+@(#) - (users.c:578) addHostname():  Finished running for [Jupes.GOTUNIX.NET]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b344]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b38c]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b3a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b3cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b3ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [W](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAD] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[W][AEAAD](JupedN@Jupes.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N HelpServ 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAE :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:601) findHostname():  Hostname [Jupes.GOTUNIX.NET] found at [0x806b31c]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b43c]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b484]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b4a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b4cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b4ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [HelpServ](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAE] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[HelpServ][AEAAE](JupedNickname@Jupes.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N MemoServ 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAF :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:601) findHostname():  Hostname [Jupes.GOTUNIX.NET] found at [0x806b31c]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b53c]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b584]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b5a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b5cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b5ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [MemoServ](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAF] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[MemoServ][AEAAF](JupedNickname@Jupes.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N OperServ 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAG :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:601) findHostname():  Hostname [Jupes.GOTUNIX.NET] found at [0x806b31c]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b63c]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b684]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b6a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b6cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b6ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [OperServ](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAG] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[OperServ][AEAAG](JupedNickname@Jupes.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N ChanServ 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAH :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:601) findHostname():  Hostname [Jupes.GOTUNIX.NET] found at [0x806b31c]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b73c]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b784]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b7a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b7cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b7ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [ChanServ](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAH] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[ChanServ][AEAAH](JupedNickname@Jupes.GOTUNIX.NET)
+@(#) - (socket.c:163) ssprintf(): Socket(SEND):  AE N NickServ 1 0 JupedNickname Jupes.GOTUNIX.NET +dwk AAAAAA AEAAI :Hello World - Im a JUPED nickname
+@(#) - (users.c:593) findHostname():  Running for [Jupes.GOTUNIX.NET]
+@(#) - (users.c:601) findHostname():  Hostname [Jupes.GOTUNIX.NET] found at [0x806b31c]
+[users.c:109:addUser()]:  Memory allocated for userHEAD at [0x806b83c]
+@(#) - (users.c:123) addUser():  Memory allocated for NICKNAME at [0x806b884]
+@(#) - (users.c:137) addUser():  Memory allocated for USERNAME at [0x806b8a4]
+@(#) - (users.c:151) addUser():  Memory allocated for NUMERIC at [0x806b8cc]
+@(#) - (users.c:165) addUser():  Memory allocated for SERVER at [0x806b8ec]
+@(#) - (users.c:169) addUser():  Adding Nickname [NickServ](JupedNickname@Jupes.GOTUNIX.NET) - Numeric[AEAAI] on Server[AE]
+@(#) - (users.c:188) addUser():  Added Nickname[NickServ][AEAAI](JupedNickname@Jupes.GOTUNIX.NET)
